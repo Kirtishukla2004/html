@@ -1,0 +1,97 @@
+                             /*body {
+     background-repeat: repeat-x, repeat-y, no-repeat;
+     background-position: left, right, center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: inherit;
+ }
+ 
+ h1 {
+     color: rgba(0, 0, 0, 0.832);
+     background-color: rgba(8, 254, 229, 0.826);
+     background-repeat: no-repeat;
+     background-size: contain;
+ }
+ 
+ .my {
+     color: black;
+     background-size: contain;
+     height: 900px;
+     font-family: cursive;
+     background-origin: padding-box;
+     border: 40px dotted;
+     background-clip: padding-box;
+     background-attachment: local;
+     overflow: auto;
+     font-size: 100px;
+     background-image: repeating-radial-gradient( red 10%, yellow 20%, green 10%);
+     background-repeat: repeat-x;
+ }
+ 
+ .section {
+     color: rgb(172, 18, 18);
+     text-align: right;
+     letter-spacing: 4px;
+     height: 90px;
+     font-size: 40px;
+     border: 20px solid;
+     background-clip: content-box;
+     border-radius: 1px;
+     background-image: repeating-linear-gradient(to left, red 5%, yellow 20%);
+     background-repeat: no-repeat;
+ }*/
+                             
+                             .r {
+                                 border: 10px solid black;
+                                 width: 200px;
+                                 height: 200px;
+                                 float: left;
+                                 margin: 20px;
+                                 border-radius: 50%;
+                             }
+                             
+                             .b1 {
+                                 background-image: conic-gradient( from 90deg, red, yellow, blue, green, violet, rgb(0, 0, 0, .5), red);
+                             }
+                             
+                             .b3 {
+                                 background-image: conic-gradient( at 50% 20%, red 270deg, yellow, blue, green, violet, rgb(0, 0, 0, .5), red);
+                             }
+                             
+                             .b4 {
+                                 background-image: conic-gradient( from 90deg, red, yellow, blue, green, violet, rgb(0, 0, 0, .5), red);
+                             }
+                             
+                             .b5 {
+                                 background-image: repeating-conic-gradient( red 10deg, red 0deg, yellow 10deg, yellow 10deg);
+                             }
+                             
+                             .b6 {
+                                 background-image: repeating-conic-gradient(black 0deg, black 90deg, green 90deg, green 180deg);
+                                 background-size: 50px 50px;
+                                 border-radius: 0;
+                             }
+                             
+                             .b7 {
+                                 background-image: repeating-conic-gradient( from 45deg, red 0deg, red 90deg, yellow 90deg, yellow 180deg, blue 180deg, blue 270deg, green 270deg, green 360deg);
+                             }
+                             
+                             .b8 {
+                                 background-image: repeating-conic-gradient(black 0deg, black 90deg, green 90deg, green 180deg);
+                             }
+                             
+                             .google {
+                                 width: 400px;
+                                 height: 400px;
+                                 margin: 500px auto;
+                             }
+                             
+                             .google h1 {
+                                 width: 400px;
+                                 height: 400px;
+                                 background-image: conic-gradient(from -30deg at 34% 61%, red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg, blue 360deg);
+                                 font-size: 400px;
+                                 font-family: sans-serif;
+                                 color: transparent;
+                                 -webkit-background-clip: text;
+                             }
