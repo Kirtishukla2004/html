@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+}
+
+.hero {
+    position: relative;
+    /*taki content kisi ke uper scroll karega ya fixed rahega uske liye position */
+    width: 100%;
+    /*hight text ko uper ya niche karne ke liye*/
+    height: 80%;
+}
+
+nav {
+    display: flex;
+    /*isliye hota h taki hum content ki fella sake */
+    width: 84%;
+    margin: auto;
+    /*saare cotent ke bich me margin matlab space banana*/
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    /*taki content ke bich me side me uper niche space create ho sake */
+    margin-top: 0;
+    padding-right: 30%;
+    /*isliye h taki right ya left ka space maintain ho jaye */
+}
+
+nav img {
+    width: 200px;
+    padding-right: 0%;
+    letter-spacing: 20px;
+}
+
+nav ul li {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    /*this is only for list*/
+    list-style: none;
+    margin: 20px 10px;
+    margin-top: 0;
+    /*uper niche */
+}
+
+nav ul li a {
+    text-decoration: none;
+    /*here text deco me line through isliye h taki text ko kaat sake  overline hota h taki content ke uper ek line aa jaye*/
+    color: black;
+    font-weight: bold;
+    /*yahan par isliyh taki pata rhe ki kitna bold karna h */
+}
+
+nav ul li a:hover {
+    color: rgb(227, 255, 18);
+    /*ye isliye h taki jab link par click karo to color change ho list ke liye*/
+}
+
+
+/*yaan se baki detel wale ko handel kiya h */
+
+.detel {
+    margin-right: 100%;
+    /*used for ki kis jagah se left ya right se kitni jagah chodhni h*/
+    /*isliye niche se kitni jagah chodhni h */
+    text-align: start;
+    /*ye isliye h ki kaha pe content dikhana h left right ya center default ye left se hota h */
+}
+
+.detel h1 {
+    font-size: 50px;
+    color: rgb(156, 10, 10);
+    /*detel wale content ke liye*/
+    height: 100%;
+    margin: 10px;
+}
+
+span {
+    letter-spacing: 2px;
+    color: rgb(178, 39, 15);
+}
+
+.detel p {
+    color: darkgreen;
+    line-height: 30px;
+    margin: 10px;
+    width: 300px;
+}
+
+.detel a {
+    background: rgb(0, 0, 0);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(253, 198, 198);
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.images {
+    width: 30%;
+    height: 800px;
+    position: absolute;
+    bottom: 0;
+    right: 500px;
+    image-resolution: inherit;
+}
+
+.images img {
+    height: 80%;
+    position: absolute;
+    left: 100%;
+    bottom: 20%;
+    transform: translateX(-50%);
+    transition: bottom 3s, left 1s;
+}
+
+image:hover-shape {
+    bottom: 40px;
+}
+
+.images:hover.girl {
+    left: 45%;
+}
