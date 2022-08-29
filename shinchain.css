@@ -1,0 +1,52 @@
+                * {
+                    margin: 0px;
+                    padding: 0px;
+                }
+                
+                body {
+                    background-image: url(image/backgrondn.jpg);
+                    width: 50vh;
+                    height: 50em;
+                    background-size: 100% 100%;
+                }
+                
+                .gif {
+                    position: absolute;
+                    bottom: 30px;
+                    animation-name: dance;
+                    animation-duration: 6s;
+                    animation-iteration-count: 1;
+                    animation-timing-function: steps(40);
+                    animation-fill-mode: both;
+                }
+                
+                @keyframes dance {
+                    0% {
+                        left: 10%;
+                    }
+                    100% {
+                        left: 60%;
+                    }
+                }
+                
+                section {
+                    position: relative;
+                    width: 100%;
+                    height: 100vh;
+                    background-image: url(https://media.geeksforgeeks.org/wp-content/uploads/20200828184536/download-200x200.png);
+                    background-size: cover;
+                    background-position: center;
+                    animation: color-change 10s linear infinite;
+                    animation-delay: 1s;
+                }
+                
+                @keyframes rain {
+                    0% {
+                        background-position: 0 0;
+                        opacity: 1;
+                    }
+                    100% {
+                        background-position: 8% 80%;
+                        opacity: 1;
+                    }
+                }
